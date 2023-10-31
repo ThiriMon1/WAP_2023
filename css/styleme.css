@@ -1,0 +1,51 @@
+.custom-font{
+    font-family:  Arial, "Arial Black", Verdana, "Trebuchet MS",Georgia, Tahoma, Courier
+    New, Times New Roman;
+    text-align: left;
+}
+.custom-font1{
+    font-size: x-small;
+}
+.custom-heading{
+    color: #A2C1F8;
+}
+.italic-text{
+    font-style: italic;
+    color: #ffffff;
+}
+.text-color{
+    color: #ffffff;
+}
+.text-color1{
+    color: yellow;
+}
+.text-color-span{
+    color:yellow;
+    font-weight: bold;
+}
+a:hover {
+    color: blue;
+}
+a:visited {
+    color: red;
+}
+a{
+    text-decoration: none;
+}
+.flip:hover{
+    transform: scaleY(-1);
+    -webkit-transform: scaleY(-1);
+    -ms-transform: scaleY(-1);
+    -o-transform: scaleY(-1);
+}
+p::first-letter {
+    font-size: 24px;
+    font-weight: bold;   
+}
+.text-index{
+    text-indent: 20px;
+}
+ol {
+    display: flex;
+    flex-direction: column-reverse;
+}
