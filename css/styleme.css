@@ -3,9 +3,6 @@
     New, Times New Roman;
     text-align: left;
 }
-.custom-font1{
-    font-size: x-small;
-}
 .custom-heading{
     color: #A2C1F8;
 }
@@ -18,6 +15,7 @@
 }
 .text-color1{
     color: yellow;
+    font-size: x-small;
 }
 .text-color-span{
     color:yellow;
@@ -44,6 +42,7 @@ p::first-letter {
 }
 .text-index{
     text-indent: 20px;
+    font-size: x-small;
 }
 ol {
     display: flex;
