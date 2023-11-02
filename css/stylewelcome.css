@@ -1,0 +1,52 @@
+.inline-content{
+    display: flex;
+    align-items: center;
+    gap: 200px;
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div-background{
+    padding: 10px;
+    background-color: pink;
+}
+.div-padding{
+    padding:10px;
+    display: inline;
+}
+
+.btn-placeorder{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+}
+.flex-table{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+.flex-row{
+    display: flex;
+  
+}
+.flex-cell{
+    flex:1;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+   
+}
+.flex-cell-total{
+    flex:1;
+    padding: 10px;
+    text-align: right;
+    border: 1px solid black;  
+}
+.text-box{
+    width:40px;
+}
+
+
