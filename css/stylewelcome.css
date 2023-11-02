@@ -48,5 +48,8 @@ body{
 .text-box{
     width:40px;
 }
+.title{
+    font-weight: bold;
+}
 
 
