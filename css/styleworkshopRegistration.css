@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+}
+
+form {
+    border: 2px solid #A2CBBC;
+}
+
+.header {
+
+    height: 35px;
+    background-color: #A2CBBC;
+    padding: 5px;
+    font-size: larger;
+}
+.rowBack{
+    background-color: #A2CBBC;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 10px;
+
+}
+
+.col-1 {
+    width: 8%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 23%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 46%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.required {
+    color: red;
+}
+
+.line {
+    text-decoration: underline;
+}
+
+select {
+    width: 65%;
+}
+
+#address {
+    height: 50px;
+}
+
+label {
+    font-weight: bold;
+}
+
+.headerBold {
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #E3E3E3;
+    height: 35px;
+    padding: 5px;
+    text-align: center;
+
+}
+
+.btn {
+    background-color: #A2CBBC;
+    border: none;
+    padding: 5px;
+}
+
+/* Dropdown container */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown button */
+.dropbtn {
+    background-color: #A2CBBC;
+    border: none;
+    cursor: pointer;
+}

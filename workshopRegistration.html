@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/styleworkshopRegistration.css">
+    <title>Registration</title>
+
+</head>
+
+<body>
+    <form>
+        <div class="row rowBack">
+            <div class="col-3 header headerBold">
+                Workshop Registration
+            </div>
+            <div class="col-3 dropdown">
+                <button class="dropbtn">More Actions<img src="./images/caret-down-solid.svg" alt="list" width="20"
+                    height="10" /><a href="#"></a></button>
+                
+            </div>
+            <div class="col-1"></div>
+            <div class="col-3"></div>
+            <div class="col-3"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-5 line">Register now while seats are available!</div>
+            <div class="col-1"></div>
+            <div class="col-5 line">Lunch</div>
+        </div>
+        <div class="row">
+
+            <div class="col-3">
+                <label for="firstName">First Name<span class="required">*</span></label>
+            </div>
+            <div class="col-3">
+                <input type="text" id="firstName" name="firstname" required>
+            </div>
+            <div class="col-1"></div>
+            <div class="col-3">
+                <label for="meal">Meal Preference</label>
+            </div>
+            <div class="col-3">
+                <select id="meal" name="meal">
+                    <option value="vegetarian">Vegetarian</option>
+                    <option value="vegetarian1">Vegetarian1</option>
+                    <option value="vegetarian2">Vegetarian2</option>
+                </select>
+            </div>
+
+        </div>
+        <div class="row">
+
+            <div class="col-3">
+                <label for="lastName">Last Name<span class="required">*</span></label>
+            </div>
+            <div class="col-3">
+                <input type="text" id="lastName" name="lastname" required>
+            </div>
+            <div class="col-1"></div>
+            <div class="col-3 line">
+                Payment Details
+            </div>
+            <div class="col-1"></div>
+        </div>
+        <div class="row">
+            <div class="col-3"><label for="companyInstitution">Company Institution<span
+                        class="required">*</span></label></div>
+            <div class="col-3"><input type="text" id="companyInstitution" name="companyInstitution" required></div>
+            <div class="col-1"></div>
+            <div class="col-3"><label for="payment">Payment Mode</label></div>
+            <div class="col-3">
+                <input type="checkbox" name="cash" value="cash" />Cash<br />
+                <input type="checkbox" name="cheque" value="cheque">Cheque<br />
+                <input type="checkbox" name="demandDraft" value="demandDraft">Demand Draft
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3"><label for="address">Address<span class="required">*</span></label></div>
+            <div class="col-3"><textarea id="address" name="address" required></textarea></div>
+            <div class="col-1"></div>
+            <div class="col-3"><label for="chequeNo">DD/Cheque No.</label></div>
+            <div class="col-3"><input type="text" id="chequeNo" name="chequeNo"> <br /></div>
+        </div>
+        <div class="row">
+            <div class="col-3"><label for="city">City</label></div>
+            <div class="col-3"><input type="text" id="city" name="city"></div>
+            <div class="col-1"></div>
+            <div class="col-3"><label for="bank">Drawn On (Bank Name)</label></div>
+            <div class="col-3"><input type="text" id="bank" name="bank"> <br /></div>
+        </div>
+        <div class="row">
+            <div class="col-3"><label for="state">State/Province/Region</label></div>
+            <div class="col-3"><select id="state" name="state">
+                    <option value="">-Select-</option>
+                    <option value="Iowa">Iowa</option>
+                    <option value="Iowa1">Iowa1</option>
+                    <option value="Iowa2">Iowa2</option>
+                </select></div>
+            <div class="col-1"></div>
+            <div class="col-3"><label for="payable">Payable at</label></div>
+            <div class="col-3"><input type="text" id="payableAt" name="payableAt"></div>
+        </div>
+        <div class="row">
+            <div class="col-3"> <label for="country">Country</label></div>
+            <div class="col-3"><select id="country" name="country">
+                    <option value="">-Select-</option>
+                    <option value="Iowa">Iowa</option>
+                    <option value="Iowa1">Iowa1</option>
+                    <option value="Iowa2">Iowa2</option>
+                </select></div>
+
+        </div>
+        <div class="row">
+            <div class="col-3"><label for="email">Email<span class="required">*</span></label></div>
+            <div class="col-3"><input type="text" id="email" name="email" required></div>
+
+        </div>
+        <div class="row">
+            <div class="col-3"><label for="phoneNo">Phone Number<span class="required">*</span></label></div>
+            <div class="col-3"><input type="text" id="phoneNo" name="phoneNo" required></div>
+
+        </div>
+        <div class="footer">
+            
+                <input class="btn" type="submit" name="submit" value="Submit" />
+                <input class="btn" type="reset" name="reset" value="Reset" />
+            
+        </div>
+        
+
+    </form>
+    <div>
+        <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fthirimon1.github.io%2FWAP_2023%2Fwelcome.html">
+            <img src="./images/htmlchecker.png" alt="checker" width="70" height="30" />
+        </a>
+        <a
+            href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fthirimon1.github.io%2FWAP_2023%2Fwelcome.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">
+            <img src="./images/css_checker.png" alt="checker" width="70" height="30" />
+        </a>
+    </div>
+</body>
+
+</html>
