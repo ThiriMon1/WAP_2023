@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <form>
+    <form action="#" method="post" autocomplete="on">
         <div class="row rowBack">
             <div class="col-3 header headerBold">
                 Workshop Registration
@@ -115,7 +115,7 @@
         </div>
         <div class="row">
             <div class="col-3"><label for="email">Email<span class="required">*</span></label></div>
-            <div class="col-3"><input type="text" id="email" name="email" required></div>
+            <div class="col-3"><input type="text" id="email" name="email" required pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}" required ></div>
 
         </div>
         <div class="row">
