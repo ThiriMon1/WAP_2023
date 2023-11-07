@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lab6_Ex3</title>
+     <link rel="stylesheet" type="text/css" href="./css/styleLab6Ex3.css">
+    <script src="./ex3.js"></script>
+</head>
+<body>
+    <div class="count">
+        Counter <span class="" id="Number"></span>
+    </div>
+    <div>
+        <span class="textBox">From</span><input type="text" id="From">
+    </div>
+    <div>
+        <span class="textBox">To</span><input type="text" id="To">
+    </div>
+    <div>
+        <button id="start">Start</button>
+    </div>
+    <script>
+        document.getElementById("start").onclick = (env) => {
+            printNumber(document.getElementById("From").value, document.getElementById("To").value);
+        };
+    </script>
+</body>
+</html>
