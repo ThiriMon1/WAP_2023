@@ -1,0 +1,19 @@
+GET http://localhost:3000/book/6
+
+###
+POST http://localhost:3000/book
+Content-Type: application/json
+
+{
+        
+       "title": "Node4.js",
+        "author": {
+          "authorId": "3044",
+          "firstname": "Edward1",
+          "lastname": "Jack44"
+        }
+}
+
+###
+GET http://localhost:3000/book?firstname=Edw
+
